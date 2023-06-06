@@ -1,37 +1,32 @@
-# Prysm: An Ethereum Consensus Implementation Written in Go
+# Opside-Chain Consensus Client Based on Prysm Fork
+This is the core library of the [Opside-Chain](https://opside.network/) consensus client, based on the Prysm fork developed by [Prysmatic Labs](https://prysmaticlabs.com/). It is a [Golang](https://golang.org/) implementation of the [Ethereum Consensus Specifications](https://ethereum.org/en/eth2/). For detailed information about the latest version and upcoming significant changes, please refer to the [Changelog](https://github.com/opside-protocol/opside-prysm/releases).
 
-[![Build status](https://badge.buildkite.com/b555891daf3614bae4284dcf365b2340cefc0089839526f096.svg?branch=master)](https://buildkite.com/prysmatic-labs/prysm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/prysmaticlabs/prysm)](https://goreportcard.com/report/github.com/prysmaticlabs/prysm)
-[![Consensus_Spec_Version 1.3.0](https://img.shields.io/badge/Consensus%20Spec%20Version-v1.3.0-blue.svg)](https://github.com/ethereum/consensus-specs/tree/v1.3.0)
-[![Execution_API_Version 1.0.0-beta.2](https://img.shields.io/badge/Execution%20API%20Version-v1.0.0.beta.2-blue.svg)](https://github.com/ethereum/execution-apis/tree/v1.0.0-beta.2/src/engine)
-[![Discord](https://user-images.githubusercontent.com/7288322/34471967-1df7808a-efbb-11e7-9088-ed0b04151291.png)](https://discord.gg/CTYGPUJ)
-[![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/prysmaticlabs/prysm/badge)](https://www.gitpoap.io/gh/prysmaticlabs/prysm)
+## Getting Started
 
-This is the core repository for Prysm, a [Golang](https://golang.org/) implementation of the [Ethereum Consensus](https://ethereum.org/en/eth2/) specification, developed by [Prysmatic Labs](https://prysmaticlabs.com). See the [Changelog](https://github.com/prysmaticlabs/prysm/releases) for details of the latest releases and upcoming breaking changes.
+A detailed set of installation and usage instructions, as well as a breakdown of each individual component, is provided in the [Official Documentation Portal](https://docs.opside.network/). If you still have questions, feel free to visit our [Discord](https://discord.com/invite/opsidezk).
 
-### Getting Started
+## Staking on Pre-alpha Testnet
 
-A detailed set of installation and usage instructions as well as breakdowns of each individual component are available in the [official documentation portal](https://docs.prylabs.network). If you still have questions, feel free to stop by our [Discord](https://discord.gg/CTYGPUJ).
+To participate in staking, you can join the [Official Launchpad](https://opside.network/validator/deposit). The Launchpad is the recommended way to become a validator at this stage.
 
-### Staking on Mainnet
+Test tokens can be obtained from the official [Faucet](https://mirror.xyz/opsidezk.eth/mezUUwj4jATth8zrsdKHc-PjsE3bs5j8j7JY15rsZNU).
 
-To participate in staking, you can join the [official eth2 launchpad](https://launchpad.ethereum.org). The launchpad is the only recommended way to become a validator on mainnet. You can explore validator rewards/penalties via Bitfly's block explorer: [beaconcha.in](https://beaconcha.in), and follow the latest blocks added to the chain on [beaconscan](https://beaconscan.com).
+### How to Run a Node
 
+For running nodes, we offer a simple and easy-to-use deployment environment. You can refer to the [Developer Documentation](https://docs.opside.network/validators-pos/run-a-validator/ubuntu-recommended/validator-program-v3). We also provide a [Control Panel Script](https://docs.opside.network/validators-pos/validator-control-dashboard) to simplify the daily maintenance operations for users.
 
-## Contributing
-### Branches
-Prysm maintains two permanent branches:
+For some common questions, you can refer to the [Developer Documentation](https://docs.opside.network/validators-pos/validator-faq).
 
-* [master](https://github.com/prysmaticlabs/prysm/tree/master): This points to the latest stable release. It is ideal for most users.
-* [develop](https://github.com/prysmaticlabs/prysm/tree/develop): This is used for development, it contains the latest PRs. Developers should base their PRs on this branch.
+### Infrastructure
 
-### Guide
-Want to get involved? Check out our [Contribution Guide](https://docs.prylabs.network/docs/contribute/contribution-guidelines/) to learn more!
+Execution Layer Block Explorer: https://pre-alpha.opside.info/
+
+Consensus Layer Block Explorer: https://pre-alpha-beacon.opside.info/
+
+Validator Overview: https://opside.network/validator/overview
+
+Goerli Cross-Chain Bridge: https://pre-alpha-bridge.opside.network/
 
 ## License
 
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
-## Legal Disclaimer
-
-[Terms of Use](/TERMS_OF_SERVICE.md)
